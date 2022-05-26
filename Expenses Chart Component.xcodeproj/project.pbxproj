@@ -13,6 +13,7 @@
 		90E89CA1283F335300BD2505 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C8F283F335200BD2505 /* ContentView.swift */; };
 		90E89CA2283F335300BD2505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E89C90283F335300BD2505 /* Assets.xcassets */; };
 		90E89CA3283F335300BD2505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E89C90283F335300BD2505 /* Assets.xcassets */; };
+		90E89CB0283F33F300BD2505 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 90E89CAF283F33F300BD2505 /* Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90E89C95283F335300BD2505 /* Expenses Chart Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expenses Chart Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E89C9B283F335300BD2505 /* Expenses Chart Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expenses Chart Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E89C9D283F335300BD2505 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90E89CAF283F33F300BD2505 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		90E89CAE283F337900BD2505 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90E89CAF283F33F300BD2505 /* Data.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E89CA2283F335300BD2505 /* Assets.xcassets in Resources */,
+				90E89CB0283F33F300BD2505 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
