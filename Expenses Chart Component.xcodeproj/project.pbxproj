@@ -19,8 +19,8 @@
 		90E89C8E283F335200BD2505 /* ExpensesChartComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesChartComponentApp.swift; sourceTree = "<group>"; };
 		90E89C8F283F335200BD2505 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90E89C90283F335300BD2505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90E89C95283F335300BD2505 /* ExpensesChartComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpensesChartComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90E89C9B283F335300BD2505 /* ExpensesChartComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpensesChartComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E89C95283F335300BD2505 /* Expenses Chart Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expenses Chart Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E89C9B283F335300BD2505 /* Expenses Chart Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expenses Chart Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E89C9D283F335300BD2505 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		90E89C8D283F335200BD2505 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90E89C8E283F335200BD2505 /* ExpensesChartComponentApp.swift */,
-				90E89C8F283F335200BD2505 /* ContentView.swift */,
-				90E89C90283F335300BD2505 /* Assets.xcassets */,
+				90E89CAE283F337900BD2505 /* Models */,
+				90E89CAD283F337400BD2505 /* Views */,
+				90E89CAC283F336A00BD2505 /* App */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		90E89C96283F335300BD2505 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90E89C95283F335300BD2505 /* ExpensesChartComponent.app */,
-				90E89C9B283F335300BD2505 /* ExpensesChartComponent.app */,
+				90E89C95283F335300BD2505 /* Expenses Chart Component.app */,
+				90E89C9B283F335300BD2505 /* Expenses Chart Component.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		90E89CAC283F336A00BD2505 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C8E283F335200BD2505 /* ExpensesChartComponentApp.swift */,
+				90E89C90283F335300BD2505 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		90E89CAD283F337400BD2505 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C8F283F335200BD2505 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90E89CAE283F337900BD2505 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90E89C94283F335300BD2505 /* ExpensesChartComponent (iOS) */ = {
+		90E89C94283F335300BD2505 /* Expenses Chart Component (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E89CA6283F335300BD2505 /* Build configuration list for PBXNativeTarget "ExpensesChartComponent (iOS)" */;
+			buildConfigurationList = 90E89CA6283F335300BD2505 /* Build configuration list for PBXNativeTarget "Expenses Chart Component (iOS)" */;
 			buildPhases = (
 				90E89C91283F335300BD2505 /* Sources */,
 				90E89C92283F335300BD2505 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "ExpensesChartComponent (iOS)";
+			name = "Expenses Chart Component (iOS)";
 			productName = "ExpensesChartComponent (iOS)";
-			productReference = 90E89C95283F335300BD2505 /* ExpensesChartComponent.app */;
+			productReference = 90E89C95283F335300BD2505 /* Expenses Chart Component.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90E89C9A283F335300BD2505 /* ExpensesChartComponent (macOS) */ = {
+		90E89C9A283F335300BD2505 /* Expenses Chart Component (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E89CA9283F335300BD2505 /* Build configuration list for PBXNativeTarget "ExpensesChartComponent (macOS)" */;
+			buildConfigurationList = 90E89CA9283F335300BD2505 /* Build configuration list for PBXNativeTarget "Expenses Chart Component (macOS)" */;
 			buildPhases = (
 				90E89C97283F335300BD2505 /* Sources */,
 				90E89C98283F335300BD2505 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "ExpensesChartComponent (macOS)";
+			name = "Expenses Chart Component (macOS)";
 			productName = "ExpensesChartComponent (macOS)";
-			productReference = 90E89C9B283F335300BD2505 /* ExpensesChartComponent.app */;
+			productReference = 90E89C9B283F335300BD2505 /* Expenses Chart Component.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90E89C8C283F335200BD2505 /* Build configuration list for PBXProject "ExpensesChartComponent" */;
+			buildConfigurationList = 90E89C8C283F335200BD2505 /* Build configuration list for PBXProject "Expenses Chart Component" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90E89C94283F335300BD2505 /* ExpensesChartComponent (iOS) */,
-				90E89C9A283F335300BD2505 /* ExpensesChartComponent (macOS) */,
+				90E89C94283F335300BD2505 /* Expenses Chart Component (iOS) */,
+				90E89C9A283F335300BD2505 /* Expenses Chart Component (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ExpensesChartComponent;
-				PRODUCT_NAME = ExpensesChartComponent;
+				PRODUCT_NAME = "Expenses Chart Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ExpensesChartComponent;
-				PRODUCT_NAME = ExpensesChartComponent;
+				PRODUCT_NAME = "Expenses Chart Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ExpensesChartComponent;
-				PRODUCT_NAME = ExpensesChartComponent;
+				PRODUCT_NAME = "Expenses Chart Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ExpensesChartComponent;
-				PRODUCT_NAME = ExpensesChartComponent;
+				PRODUCT_NAME = "Expenses Chart Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90E89C8C283F335200BD2505 /* Build configuration list for PBXProject "ExpensesChartComponent" */ = {
+		90E89C8C283F335200BD2505 /* Build configuration list for PBXProject "Expenses Chart Component" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E89CA4283F335300BD2505 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90E89CA6283F335300BD2505 /* Build configuration list for PBXNativeTarget "ExpensesChartComponent (iOS)" */ = {
+		90E89CA6283F335300BD2505 /* Build configuration list for PBXNativeTarget "Expenses Chart Component (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E89CA7283F335300BD2505 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90E89CA9283F335300BD2505 /* Build configuration list for PBXNativeTarget "ExpensesChartComponent (macOS)" */ = {
+		90E89CA9283F335300BD2505 /* Build configuration list for PBXNativeTarget "Expenses Chart Component (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E89CAA283F335300BD2505 /* Debug */,
