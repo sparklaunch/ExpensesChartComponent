@@ -11,8 +11,9 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackgroundView()
-            VStack {
+            VStack(spacing: 16) {
                 BalanceView()
+                ChartView()
             }
             .padding()
         }
