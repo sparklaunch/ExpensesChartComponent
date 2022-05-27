@@ -26,7 +26,9 @@ struct ChartView: View {
 struct ChartView_Previews: PreviewProvider {
     static var previews: some View {
         ChartView()
+            .environmentObject(DataManager())
             .padding()
+            .padding(.vertical, 120)
             .background(Color("BackgroundColor"))
             .previewLayout(.sizeThatFits)
     }

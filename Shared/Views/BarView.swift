@@ -16,10 +16,3 @@ struct BarView: View {
             .frame(height: amount * 4)
     }
 }
-
-struct BarView_Previews: PreviewProvider {
-    static var previews: some View {
-        BarView(amount: 0.5)
-            .previewLayout(.sizeThatFits)
-    }
-}
