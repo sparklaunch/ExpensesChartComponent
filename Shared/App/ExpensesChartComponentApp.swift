@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ExpensesChartComponentApp: App {
+    @StateObject private var dataManager: DataManager = .init()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(dataManager)
         }
     }
 }

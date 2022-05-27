@@ -13,6 +13,7 @@ struct ChartView: View {
             Color.white
             VStack {
                 ChartTitleView()
+                BarChartView()
             }
             .padding(24)
         }
