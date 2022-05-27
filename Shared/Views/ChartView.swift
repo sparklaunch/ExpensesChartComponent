@@ -14,10 +14,8 @@ struct ChartView: View {
             VStack(alignment: .leading) {
                 ChartTitleView()
                 BarChartView()
-                Divider()
-                    .frame(height: 2)
-                    .background(Color("BackgroundColor"))
-                    .padding(.vertical)
+                MiddleDividerView()
+                TotalView()
             }
             .padding(24)
         }

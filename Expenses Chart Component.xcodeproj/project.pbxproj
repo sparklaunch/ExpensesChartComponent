@@ -22,6 +22,7 @@
 		90E89CBC2840659700BD2505 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89CBB2840659700BD2505 /* DataManager.swift */; };
 		90E89CBE28406F7C00BD2505 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89CBD28406F7C00BD2505 /* BarView.swift */; };
 		90E89CC028418EF500BD2505 /* MiddleDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89CBF28418EF500BD2505 /* MiddleDividerView.swift */; };
+		90E89CC228418F4700BD2505 /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89CC128418F4700BD2505 /* TotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		90E89CBB2840659700BD2505 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		90E89CBD28406F7C00BD2505 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 		90E89CBF28418EF500BD2505 /* MiddleDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleDividerView.swift; sourceTree = "<group>"; };
+		90E89CC128418F4700BD2505 /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				90E89CB92840655E00BD2505 /* BarChartView.swift */,
 				90E89CBD28406F7C00BD2505 /* BarView.swift */,
 				90E89CBF28418EF500BD2505 /* MiddleDividerView.swift */,
+				90E89CC128418F4700BD2505 /* TotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E89CBE28406F7C00BD2505 /* BarView.swift in Sources */,
+				90E89CC228418F4700BD2505 /* TotalView.swift in Sources */,
 				90E89CB22840638A00BD2505 /* BackgroundView.swift in Sources */,
 				90E89CB4284063C600BD2505 /* BalanceView.swift in Sources */,
 				90E89CB8284064D700BD2505 /* ChartTitleView.swift in Sources */,
