@@ -20,7 +20,11 @@ struct BarChartView: View {
         VStack {
             HStack(alignment: .bottom, spacing: 12) {
                 ForEach(bars, id: \.day) { bar in
-                    BarView(amount: bar.amount, isHighest: bar.amount == highest)
+                    VStack {
+                        BarView(amount: bar.amount, isHighest: bar.amount == highest)
+                        Text(bar.day)
+                            .foregroundColor(.init("TextColor"))
+                    }
                 }
             }
             .padding(.top, 24)
