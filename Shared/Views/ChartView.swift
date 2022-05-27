@@ -11,7 +11,7 @@ struct ChartView: View {
     var body: some View {
         ZStack {
             Color.white
-            VStack {
+            VStack(alignment: .leading) {
                 ChartTitleView()
                 BarChartView()
             }

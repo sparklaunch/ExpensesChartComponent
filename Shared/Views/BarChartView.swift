@@ -10,11 +10,20 @@ import SwiftUI
 struct BarChartView: View {
     @EnvironmentObject private var dataManager: DataManager
     @State private var bars: [Bar] = []
+    private var highest: Double {
+        let sortedBars = bars.sorted {
+            $0.amount > $1.amount
+        }
+        return sortedBars.first?.amount ?? .zero
+    }
     var body: some View {
         VStack {
-            ForEach(bars, id: \.day) { bar in
-                Text(bar.day)
+            HStack(alignment: .bottom, spacing: 12) {
+                ForEach(bars, id: \.day) { bar in
+                    BarView(amount: bar.amount, isHighest: bar.amount == highest)
+                }
             }
+            .padding(.top, 24)
         }
         .onAppear {
             dataManager.fetchData()
