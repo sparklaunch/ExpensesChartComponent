@@ -110,15 +110,10 @@
 		90E89CAD283F337400BD2505 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90E89CC5284190CF00BD2505 /* Misc */,
+				90E89CC4284190BF00BD2505 /* Chart */,
+				90E89CC3284190B900BD2505 /* Balance */,
 				90E89C8F283F335200BD2505 /* ContentView.swift */,
-				90E89CB12840638A00BD2505 /* BackgroundView.swift */,
-				90E89CB3284063C600BD2505 /* BalanceView.swift */,
-				90E89CB5284064AE00BD2505 /* ChartView.swift */,
-				90E89CB7284064D700BD2505 /* ChartTitleView.swift */,
-				90E89CB92840655E00BD2505 /* BarChartView.swift */,
-				90E89CBD28406F7C00BD2505 /* BarView.swift */,
-				90E89CBF28418EF500BD2505 /* MiddleDividerView.swift */,
-				90E89CC128418F4700BD2505 /* TotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,6 +125,35 @@
 				90E89CBB2840659700BD2505 /* DataManager.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		90E89CC3284190B900BD2505 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				90E89CB3284063C600BD2505 /* BalanceView.swift */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		90E89CC4284190BF00BD2505 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				90E89CB5284064AE00BD2505 /* ChartView.swift */,
+				90E89CB7284064D700BD2505 /* ChartTitleView.swift */,
+				90E89CB92840655E00BD2505 /* BarChartView.swift */,
+				90E89CBD28406F7C00BD2505 /* BarView.swift */,
+				90E89CBF28418EF500BD2505 /* MiddleDividerView.swift */,
+				90E89CC128418F4700BD2505 /* TotalView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		90E89CC5284190CF00BD2505 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				90E89CB12840638A00BD2505 /* BackgroundView.swift */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -12,7 +12,7 @@ struct MiddleDividerView: View {
         Divider()
             .frame(height: 2)
             .background(Color("BackgroundColor"))
-            .padding(.vertical)
+            .padding(.vertical, 4)
     }
 }
 

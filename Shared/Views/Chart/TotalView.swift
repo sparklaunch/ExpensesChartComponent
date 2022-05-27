@@ -34,6 +34,7 @@ struct TotalView: View {
 struct TotalView_Previews: PreviewProvider {
     static var previews: some View {
         TotalView()
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }
